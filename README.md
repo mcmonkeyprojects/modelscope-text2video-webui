@@ -4,7 +4,7 @@ Dirt simple Gradio powered WebUI for https://modelscope.cn/models/damo/text-to-v
 
 ![](github/webui-preview.jpg)
 
-# Usage
+# Install And Basic Usage
 
 - Install Python 3.7 (or 3.10 or whatever idk it's probably fine)
 - Run the program
@@ -16,6 +16,11 @@ Dirt simple Gradio powered WebUI for https://modelscope.cn/models/damo/text-to-v
     - You might need to restart it a few times, it will randomly crash because they have server issues I guess.
 - Open <http://localhost:7860/> in your browser.
 - Type prompts, hit generate, enjoy.
+
+# Advanced Usage
+
+- Want to change the port or whatever? Edit it at the bottom of the `modelscope_gradio.py` file.
+    - I'll add better options for all that if people start actively using this repo, for now this is a day-one slap together interface to make it easier than the mess the original repo left users with.
 
 # Notes
 
