@@ -2,6 +2,8 @@
 
 Dirt simple Gradio powered WebUI for https://modelscope.cn/models/damo/text-to-video-synthesis/summary
 
+![](github/webui-preview.jpg)
+
 # Usage
 
 - Install Python 3.7 (or 3.10 or whatever idk it's probably fine)
