@@ -22,3 +22,7 @@ Dirt simple Gradio powered WebUI for https://modelscope.cn/models/damo/text-to-v
 - Outputs will be stored in `./outputs/`
 - Takes about 20 seconds to generate a video on an RTX 3090
 - Uses about 16 GiB of VRAM
+
+# Licenses
+
+Code in this repo is MIT (do whatever ya want with it), modelscope is [Apache2](https://github.com/modelscope/modelscope/blob/master/LICENSE), the model itself has [its own license](https://modelscope.cn/models/damo/text-to-video-synthesis/summary). Other licenses from [Gradio](https://github.com/gradio-app/gradio/blob/main/LICENSE) and other upstream python libs apply however relevant.
