@@ -22,7 +22,7 @@ def generate(prompt: str, seed: int):
     tempOutPath = pipe({'text': prompt})[OutputKeys.OUTPUT_VIDEO]
     genTime = time.time() - start_time
     # Save
-    actualOutPath = "./output/" + re.sub("^[a-zA-Z0-9_]", "", prompt)
+    actualOutPath = "./output/" + re.sub("[^a-zA-Z0-9_ ]", "", prompt)
     if hasattr(os, 'statvfs'):
         max_name_len = os.statvfs("./output/").f_namemax
         actualOutPath = actualOutPath[:max_name_len - 5]
