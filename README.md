@@ -2,14 +2,17 @@
 
 Dirt simple Gradio powered WebUI for https://modelscope.cn/models/damo/text-to-video-synthesis/summary
 
-# Linux Usage
+# Usage
 
 - Install Python 3.7 (or 3.10 or whatever idk it's probably fine)
-- Run `./start.sh`
-- If something breaks in install re-run `./install.sh`
+- Run the program
+    - For Windows, double-click `start.bat`
+        - If something breaks in install, delete `venv` and run `start.bat` again
+    - For Linux, run `./start.sh`
+        - If something breaks in install, run `./install.sh`
 - Wait a while, it installs a ton of python packages then downloads like 20 gigs worth of random models
     - You might need to restart it a few times, it will randomly crash because they have server issues I guess.
-- It will tell you the URL of a WebUI to connect to. Open that in your browser.
+- Open <http://localhost:7860/> in your browser.
 - Type prompts, hit generate, enjoy.
 
 # Notes
